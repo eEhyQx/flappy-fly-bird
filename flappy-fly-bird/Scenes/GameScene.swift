@@ -37,6 +37,23 @@ class GameScene: SKScene {
     override func sceneDidLoad() {
         super.sceneDidLoad()
         
+        GlobalVariables.queue.async {
+            //print("Hello")
+//            var a = 0
+            let t : Set<UITouch> = []
+            sleep(1)
+            while self.view != nil {
+                //print(a)
+                if GlobalVariables.isTriggered {
+                    self.touchesBegan(t, with: nil)
+                    GlobalVariables.isTriggered = false
+                }
+                //a+=1
+                usleep(10)
+            }
+            //print("Bye")
+        }
+        
         self.lastUpdateTime = 0
         sceneAdapeter = GameSceneAdapter(with: self)
         sceneAdapeter?.stateMahcine = stateMachine

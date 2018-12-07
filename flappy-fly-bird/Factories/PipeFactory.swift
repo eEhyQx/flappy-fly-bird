@@ -17,9 +17,9 @@ struct PipeFactory {
     
     // MARK: - Constants
     
-    static let pipeWidth: CGFloat = 100
+    static let pipeWidth: CGFloat = 50
     private static var rangedHeight: CGFloat {
-        return CGFloat.range(min: 70, max: 850)
+        return CGFloat.range(min: 70, max: 580)
     }
     private static var doubleRangeHeight: CGFloat {
         return CGFloat.range(min: 40, max: 200)

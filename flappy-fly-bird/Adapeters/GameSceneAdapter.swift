@@ -24,7 +24,7 @@ class GameSceneAdapter: NSObject, GameSceneProtocol {
     // MARK: - Properties
     
     let gravity: CGFloat = -5.0
-    let playerSize = CGSize(width: 100, height: 100)
+    let playerSize = CGSize(width: 50, height: 50)
     let backgroundResourceName = "airadventurelevel4"//"Background-Winter"
     let floorDistance: CGFloat = 0
     

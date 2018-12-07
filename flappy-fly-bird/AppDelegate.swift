@@ -8,6 +8,26 @@
 
 import UIKit
 
+struct GlobalVariables {
+    static var device: HolyDevice?
+    static var isConnected: Bool = false
+    static var isTriggered: Bool = false
+    static var GVCp: GameViewController? = nil
+    static func addSensor() {
+        if isConnected { return }
+        print("Searching for the first sensor...")
+        while HolyCentralManager.shared.centralManager.state != .poweredOn {
+            usleep(10)
+        }
+        HolyCentralManager.shared.startScan()
+        while !isConnected {
+            usleep(10)
+        }
+        HolyCentralManager.shared.stopScan()
+    }
+    static var queue = DispatchQueue(label: "q84rafk", qos: DispatchQoS.userInitiated, attributes: .concurrent)
+}
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 

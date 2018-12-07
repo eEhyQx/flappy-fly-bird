@@ -15,6 +15,10 @@ class TitleScene: RoutingUtilityScene {
     override func didMove(to view: SKView) {
         super.didMove(to: view)
         
+//        GlobalVariables.queue.async {
+//            GlobalVariables.addSensor()
+//        }
+        
         loadSelectedPlayer()
         
         let isSoundOn = UserDefaults.standard.bool(for: .isSoundOn)

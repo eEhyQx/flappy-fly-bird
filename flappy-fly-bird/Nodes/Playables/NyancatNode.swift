@@ -112,7 +112,7 @@ extension NyancatNode: Touchable {
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         if !shouldAcceptTouches { return }
         
-        impact.impactOccurred()
+        //impact.impactOccurred()
         
         isAffectedByGravity = true
         // Apply an impulse to the DY value of the physics body of the bird

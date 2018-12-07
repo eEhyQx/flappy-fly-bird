@@ -7,6 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A57C77F121A56E64006CC6C7 /* CBAttribute+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57C77D621A56E64006CC6C7 /* CBAttribute+Extension.swift */; };
+		A57C77F221A56E64006CC6C7 /* CBPeripheral+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57C77D721A56E64006CC6C7 /* CBPeripheral+Extension.swift */; };
+		A57C77F321A56E64006CC6C7 /* CBCharacteristic+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57C77D821A56E64006CC6C7 /* CBCharacteristic+Extension.swift */; };
+		A57C77F421A56E64006CC6C7 /* CBPeer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57C77D921A56E64006CC6C7 /* CBPeer+Extension.swift */; };
+		A57C77F521A56E64006CC6C7 /* CBDescriptor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57C77DA21A56E64006CC6C7 /* CBDescriptor+Extension.swift */; };
+		A57C77F621A56E64006CC6C7 /* CBService+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57C77DB21A56E64006CC6C7 /* CBService+Extension.swift */; };
+		A57C77F721A56E64006CC6C7 /* UpdateCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57C77DD21A56E64006CC6C7 /* UpdateCommand.swift */; };
+		A57C77F821A56E64006CC6C7 /* SensorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57C77DE21A56E64006CC6C7 /* SensorType.swift */; };
+		A57C77F921A56E64006CC6C7 /* WeakRef.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57C77DF21A56E64006CC6C7 /* WeakRef.swift */; };
+		A57C77FA21A56E64006CC6C7 /* Data+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57C77E021A56E64006CC6C7 /* Data+Extension.swift */; };
+		A57C77FB21A56E64006CC6C7 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57C77E121A56E64006CC6C7 /* Device.swift */; };
+		A57C77FC21A56E64006CC6C7 /* AccelerometerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57C77E321A56E64006CC6C7 /* AccelerometerData.swift */; };
+		A57C77FD21A56E64006CC6C7 /* SFLData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57C77E421A56E64006CC6C7 /* SFLData.swift */; };
+		A57C77FE21A56E64006CC6C7 /* HumidityData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57C77E521A56E64006CC6C7 /* HumidityData.swift */; };
+		A57C77FF21A56E64006CC6C7 /* MagnetometerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57C77E621A56E64006CC6C7 /* MagnetometerData.swift */; };
+		A57C780021A56E64006CC6C7 /* AdvertisementData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57C77E721A56E64006CC6C7 /* AdvertisementData.swift */; };
+		A57C780121A56E64006CC6C7 /* Range.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57C77E821A56E64006CC6C7 /* Range.swift */; };
+		A57C780221A56E64006CC6C7 /* GyroscopeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57C77E921A56E64006CC6C7 /* GyroscopeData.swift */; };
+		A57C780321A56E64006CC6C7 /* TemperatureData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57C77EA21A56E64006CC6C7 /* TemperatureData.swift */; };
+		A57C780421A56E64006CC6C7 /* BarometerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57C77EB21A56E64006CC6C7 /* BarometerData.swift */; };
+		A57C780521A56E64006CC6C7 /* PowerCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57C77EC21A56E64006CC6C7 /* PowerCommand.swift */; };
+		A57C780621A56E64006CC6C7 /* HolyDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57C77EE21A56E64006CC6C7 /* HolyDevice.swift */; };
+		A57C780721A56E64006CC6C7 /* HolyCentralManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57C77EF21A56E64006CC6C7 /* HolyCentralManager.swift */; };
+		A57C780821A56E64006CC6C7 /* HolyIOT.swift in Sources */ = {isa = PBXBuildFile; fileRef = A57C77F021A56E64006CC6C7 /* HolyIOT.swift */; };
 		A90292E020B1909A0043C9B2 /* NyancatRainbowNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90292DF20B1909A0043C9B2 /* NyancatRainbowNode.swift */; };
 		A903943420AD94F000376CC3 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = A903943320AD94F000376CC3 /* UserDefaults.swift */; };
 		A903943620AD9D1200376CC3 /* SnowParticleEffect.sks in Resources */ = {isa = PBXBuildFile; fileRef = A903943520AD9D1200376CC3 /* SnowParticleEffect.sks */; };
@@ -105,6 +129,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A57C77D621A56E64006CC6C7 /* CBAttribute+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CBAttribute+Extension.swift"; sourceTree = "<group>"; };
+		A57C77D721A56E64006CC6C7 /* CBPeripheral+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CBPeripheral+Extension.swift"; sourceTree = "<group>"; };
+		A57C77D821A56E64006CC6C7 /* CBCharacteristic+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CBCharacteristic+Extension.swift"; sourceTree = "<group>"; };
+		A57C77D921A56E64006CC6C7 /* CBPeer+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CBPeer+Extension.swift"; sourceTree = "<group>"; };
+		A57C77DA21A56E64006CC6C7 /* CBDescriptor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CBDescriptor+Extension.swift"; sourceTree = "<group>"; };
+		A57C77DB21A56E64006CC6C7 /* CBService+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CBService+Extension.swift"; sourceTree = "<group>"; };
+		A57C77DD21A56E64006CC6C7 /* UpdateCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateCommand.swift; sourceTree = "<group>"; };
+		A57C77DE21A56E64006CC6C7 /* SensorType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SensorType.swift; sourceTree = "<group>"; };
+		A57C77DF21A56E64006CC6C7 /* WeakRef.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeakRef.swift; sourceTree = "<group>"; };
+		A57C77E021A56E64006CC6C7 /* Data+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+Extension.swift"; sourceTree = "<group>"; };
+		A57C77E121A56E64006CC6C7 /* Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		A57C77E321A56E64006CC6C7 /* AccelerometerData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccelerometerData.swift; sourceTree = "<group>"; };
+		A57C77E421A56E64006CC6C7 /* SFLData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SFLData.swift; sourceTree = "<group>"; };
+		A57C77E521A56E64006CC6C7 /* HumidityData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HumidityData.swift; sourceTree = "<group>"; };
+		A57C77E621A56E64006CC6C7 /* MagnetometerData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagnetometerData.swift; sourceTree = "<group>"; };
+		A57C77E721A56E64006CC6C7 /* AdvertisementData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdvertisementData.swift; sourceTree = "<group>"; };
+		A57C77E821A56E64006CC6C7 /* Range.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Range.swift; sourceTree = "<group>"; };
+		A57C77E921A56E64006CC6C7 /* GyroscopeData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GyroscopeData.swift; sourceTree = "<group>"; };
+		A57C77EA21A56E64006CC6C7 /* TemperatureData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemperatureData.swift; sourceTree = "<group>"; };
+		A57C77EB21A56E64006CC6C7 /* BarometerData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarometerData.swift; sourceTree = "<group>"; };
+		A57C77EC21A56E64006CC6C7 /* PowerCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PowerCommand.swift; sourceTree = "<group>"; };
+		A57C77EE21A56E64006CC6C7 /* HolyDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HolyDevice.swift; sourceTree = "<group>"; };
+		A57C77EF21A56E64006CC6C7 /* HolyCentralManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HolyCentralManager.swift; sourceTree = "<group>"; };
+		A57C77F021A56E64006CC6C7 /* HolyIOT.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HolyIOT.swift; sourceTree = "<group>"; };
 		A90292DF20B1909A0043C9B2 /* NyancatRainbowNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NyancatRainbowNode.swift; sourceTree = "<group>"; };
 		A903943320AD94F000376CC3 /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
 		A903943520AD9D1200376CC3 /* SnowParticleEffect.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SnowParticleEffect.sks; sourceTree = "<group>"; };
@@ -214,6 +262,70 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A57C77D421A56E64006CC6C7 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A57C77D521A56E64006CC6C7 /* CoreBluetooth+Extension */,
+				A57C77DC21A56E64006CC6C7 /* Base */,
+				A57C77ED21A56E64006CC6C7 /* Holy */,
+			);
+			name = Core;
+			path = "flappy-fly-bird/Control/Core";
+			sourceTree = SOURCE_ROOT;
+		};
+		A57C77D521A56E64006CC6C7 /* CoreBluetooth+Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A57C77D621A56E64006CC6C7 /* CBAttribute+Extension.swift */,
+				A57C77D721A56E64006CC6C7 /* CBPeripheral+Extension.swift */,
+				A57C77D821A56E64006CC6C7 /* CBCharacteristic+Extension.swift */,
+				A57C77D921A56E64006CC6C7 /* CBPeer+Extension.swift */,
+				A57C77DA21A56E64006CC6C7 /* CBDescriptor+Extension.swift */,
+				A57C77DB21A56E64006CC6C7 /* CBService+Extension.swift */,
+			);
+			path = "CoreBluetooth+Extension";
+			sourceTree = "<group>";
+		};
+		A57C77DC21A56E64006CC6C7 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				A57C77DD21A56E64006CC6C7 /* UpdateCommand.swift */,
+				A57C77DE21A56E64006CC6C7 /* SensorType.swift */,
+				A57C77DF21A56E64006CC6C7 /* WeakRef.swift */,
+				A57C77E021A56E64006CC6C7 /* Data+Extension.swift */,
+				A57C77E121A56E64006CC6C7 /* Device.swift */,
+				A57C77E221A56E64006CC6C7 /* Data */,
+				A57C77EC21A56E64006CC6C7 /* PowerCommand.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		A57C77E221A56E64006CC6C7 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				A57C77E321A56E64006CC6C7 /* AccelerometerData.swift */,
+				A57C77E421A56E64006CC6C7 /* SFLData.swift */,
+				A57C77E521A56E64006CC6C7 /* HumidityData.swift */,
+				A57C77E621A56E64006CC6C7 /* MagnetometerData.swift */,
+				A57C77E721A56E64006CC6C7 /* AdvertisementData.swift */,
+				A57C77E821A56E64006CC6C7 /* Range.swift */,
+				A57C77E921A56E64006CC6C7 /* GyroscopeData.swift */,
+				A57C77EA21A56E64006CC6C7 /* TemperatureData.swift */,
+				A57C77EB21A56E64006CC6C7 /* BarometerData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		A57C77ED21A56E64006CC6C7 /* Holy */ = {
+			isa = PBXGroup;
+			children = (
+				A57C77EE21A56E64006CC6C7 /* HolyDevice.swift */,
+				A57C77EF21A56E64006CC6C7 /* HolyCentralManager.swift */,
+				A57C77F021A56E64006CC6C7 /* HolyIOT.swift */,
+			);
+			path = Holy;
+			sourceTree = "<group>";
+		};
 		A903943720AD9D1A00376CC3 /* Particles */ = {
 			isa = PBXGroup;
 			children = (
@@ -522,6 +634,7 @@
 		A9CC5C3520A0215C00040E61 /* Control */ = {
 			isa = PBXGroup;
 			children = (
+				A57C77D421A56E64006CC6C7 /* Core */,
 				A9CC5C3620A0216500040E61 /* ControlInputDirection.swift */,
 			);
 			path = Control;
@@ -722,41 +835,65 @@
 			files = (
 				A9E14DAF20B1764B0075D725 /* SKEmitterNode+Utils.swift in Sources */,
 				A9EC756820A6E479007C42EC /* RoutingUtilityScene.swift in Sources */,
+				A57C77FC21A56E64006CC6C7 /* AccelerometerData.swift in Sources */,
+				A57C77F321A56E64006CC6C7 /* CBCharacteristic+Extension.swift in Sources */,
 				A9D4CFD7209AF515006461AF /* SKScene+SpriteUploader.swift in Sources */,
+				A57C780621A56E64006CC6C7 /* HolyDevice.swift in Sources */,
+				A57C77F721A56E64006CC6C7 /* UpdateCommand.swift in Sources */,
+				A57C77F621A56E64006CC6C7 /* CBService+Extension.swift in Sources */,
 				A92E72EE209D87570015F647 /* ButtonNode.swift in Sources */,
+				A57C77F521A56E64006CC6C7 /* CBDescriptor+Extension.swift in Sources */,
 				A9092FA5216B35C800D773BC /* TriggleButtonNode.swift in Sources */,
 				A992D8B620A03B90003A9998 /* SceneOverlay.swift in Sources */,
 				A9ACB9232099A1F200966991 /* GameScene.swift in Sources */,
 				A9ACB98D2099F0FC00966991 /* Touchable.swift in Sources */,
+				A57C780521A56E64006CC6C7 /* PowerCommand.swift in Sources */,
 				A9D4CFDD209B3A50006461AF /* PipeNode.swift in Sources */,
 				A9CCA26E20BBD5B5005795BD /* NyancatNode.swift in Sources */,
+				A57C780021A56E64006CC6C7 /* AdvertisementData.swift in Sources */,
 				A9CC5C3720A0216500040E61 /* ControlInputDirection.swift in Sources */,
+				A57C77F421A56E64006CC6C7 /* CBPeer+Extension.swift in Sources */,
 				A9D4CFDB209AFA06006461AF /* GameSceneProtocol.swift in Sources */,
 				A9ACB98B2099F0D300966991 /* Updatable.swift in Sources */,
+				A57C780421A56E64006CC6C7 /* BarometerData.swift in Sources */,
 				A92E72E6209D818B0015F647 /* PausedState.swift in Sources */,
+				A57C780121A56E64006CC6C7 /* Range.swift in Sources */,
 				A9ACB9252099A1F200966991 /* GameViewController.swift in Sources */,
 				A9B9F83620B449EC00FC0BDA /* Playable.swift in Sources */,
 				A9ACB9872099E74600966991 /* BirdNode.swift in Sources */,
+				A57C77FE21A56E64006CC6C7 /* HumidityData.swift in Sources */,
 				A9D4CFD9209AF53E006461AF /* SKTextureAtlas+FrameUploader.swift in Sources */,
 				A94A97F721A287890087C018 /* InfiniteSpriteScrollNode.swift in Sources */,
 				A9ACB99F209A0F4D00966991 /* GameSceneAdapter.swift in Sources */,
 				A92E72E4209D81820015F647 /* GameOverState.swift in Sources */,
 				A9ACB99C209A0DE100966991 /* CGFloat+MathUtils.swift in Sources */,
+				A57C77FA21A56E64006CC6C7 /* Data+Extension.swift in Sources */,
+				A57C780321A56E64006CC6C7 /* TemperatureData.swift in Sources */,
 				A9ACB9992099F1D200966991 /* PhysicsCategories.swift in Sources */,
+				A57C780221A56E64006CC6C7 /* GyroscopeData.swift in Sources */,
 				A9ACB91D2099A1F200966991 /* AppDelegate.swift in Sources */,
 				A92E72E2209D815B0015F647 /* PlayingState.swift in Sources */,
 				A90292E020B1909A0043C9B2 /* NyancatRainbowNode.swift in Sources */,
+				A57C77FD21A56E64006CC6C7 /* SFLData.swift in Sources */,
+				A57C77F221A56E64006CC6C7 /* CBPeripheral+Extension.swift in Sources */,
+				A57C780721A56E64006CC6C7 /* HolyCentralManager.swift in Sources */,
 				A935954420C2773F000FF0FA /* SKScene+ShaderTransition.swift in Sources */,
+				A57C77F121A56E64006CC6C7 /* CBAttribute+Extension.swift in Sources */,
 				A9CC5C31209EFA0600040E61 /* SKTexture+Gradient.swift in Sources */,
+				A57C77F921A56E64006CC6C7 /* WeakRef.swift in Sources */,
 				A9EC756420A6D3E9007C42EC /* SettingsScene.swift in Sources */,
 				A903943420AD94F000376CC3 /* UserDefaults.swift in Sources */,
+				A57C77FB21A56E64006CC6C7 /* Device.swift in Sources */,
 				A9D4CFE0209B4040006461AF /* PipeFactory.swift in Sources */,
 				A903943F20ADB24000376CC3 /* ToggleButtonNode.swift in Sources */,
 				A9B9C729209EE31C0045548D /* TitleScene.swift in Sources */,
 				A950485820BADB7A0020ECD9 /* SKSpriteNode+GIF.swift in Sources */,
 				A9D0897920B97CA800BE2896 /* CharactersScene.swift in Sources */,
+				A57C77F821A56E64006CC6C7 /* SensorType.swift in Sources */,
 				A941362320C4067C007FD610 /* Bool+PipeRandom.swift in Sources */,
+				A57C780821A56E64006CC6C7 /* HolyIOT.swift in Sources */,
 				A9EC756620A6D829007C42EC /* ScoresScene.swift in Sources */,
+				A57C77FF21A56E64006CC6C7 /* MagnetometerData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -916,14 +1053,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5W8256FV33;
+				DEVELOPMENT_TEAM = CMZZ5WRSKZ;
 				INFOPLIST_FILE = "$(SRCROOT)/flappy-fly-bird/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "eleev.astemir.io.flappy-fly-bird";
+				PRODUCT_BUNDLE_IDENTIFIER = "eleev.astemir.io.flappy-fly-bir";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -934,14 +1072,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5W8256FV33;
+				DEVELOPMENT_TEAM = CMZZ5WRSKZ;
 				INFOPLIST_FILE = "$(SRCROOT)/flappy-fly-bird/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "eleev.astemir.io.flappy-fly-bird";
+				PRODUCT_BUNDLE_IDENTIFIER = "eleev.astemir.io.flappy-fly-bir";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
